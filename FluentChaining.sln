@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentChaining", "FluentChaining\FluentChaining.csproj", "{65956CFF-1DFC-4AA3-990B-123E81AD5B25}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentChaining.Example", "FluentChaining.Example\FluentChaining.Example.csproj", "{B284E5B8-BC24-4FC5-B3F1-31DDDA490CEB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentChaining.Tests", "FluentChaining.Tests\FluentChaining.Tests.csproj", "{CA1B335B-A44E-4793-BEED-1212F20B6E77}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{65956CFF-1DFC-4AA3-990B-123E81AD5B25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65956CFF-1DFC-4AA3-990B-123E81AD5B25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65956CFF-1DFC-4AA3-990B-123E81AD5B25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65956CFF-1DFC-4AA3-990B-123E81AD5B25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B284E5B8-BC24-4FC5-B3F1-31DDDA490CEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B284E5B8-BC24-4FC5-B3F1-31DDDA490CEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B284E5B8-BC24-4FC5-B3F1-31DDDA490CEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B284E5B8-BC24-4FC5-B3F1-31DDDA490CEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA1B335B-A44E-4793-BEED-1212F20B6E77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA1B335B-A44E-4793-BEED-1212F20B6E77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA1B335B-A44E-4793-BEED-1212F20B6E77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA1B335B-A44E-4793-BEED-1212F20B6E77}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
