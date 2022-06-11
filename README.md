@@ -1,4 +1,4 @@
-# FluentChaining
+# FluentChaining [![NuGet](https://img.shields.io/nuget/v/FluentChaining?style=flat-square)](https://www.nuget.org/packages/FluentChaining/)
 
 A lightweight library for implementing responsibility chains in fluent style.
 
