@@ -5,6 +5,13 @@
         <LangVersion>10</LangVersion>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
+        <Authors>ronimizy</Authors>
+        <Title>FluentChaining</Title>
+        <Description>A lightweight library for implementing responsibility chains in fluent style.</Description>
+        <PackageProjectUrl>https://github.com/ronimizy/FluentChaining</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/ronimizy/FluentChaining</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+        <PackageTags>responsibility-chain;fluent;</PackageTags>
     </PropertyGroup>
 
     <ItemGroup>
