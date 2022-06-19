@@ -6,6 +6,10 @@
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
     </PropertyGroup>
+    
+    <PropertyGroup>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    </PropertyGroup>
 
     <PropertyGroup>
         <Authors>ronimizy</Authors>
@@ -13,8 +17,8 @@
         <Description>A lightweight library for implementing responsibility chains in fluent style.</Description>
         <PackageProjectUrl>https://github.com/ronimizy/FluentChaining</PackageProjectUrl>
         <RepositoryUrl>https://github.com/ronimizy/FluentChaining</RepositoryUrl>
-        <PackageVersion>1.0.2</PackageVersion>
-        <PackageReleaseNotes>Updated fluent scanning.</PackageReleaseNotes>
+        <PackageVersion>1.0.3</PackageVersion>
+        <PackageReleaseNotes>Lowered DI version.</PackageReleaseNotes>
         <RepositoryType>git</RepositoryType>
         <PackageTags>responsibility-chain;fluent;</PackageTags>
         <PackageReadmeFile>README.md</PackageReadmeFile>
@@ -22,7 +26,7 @@
 
     <ItemGroup>
         <PackageReference Include="FluentScanning.DependencyInjection" Version="1.1.2" />
-        <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="6.0.0" />
+        <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="3.0.0" />
     </ItemGroup>
 
     <ItemGroup>
