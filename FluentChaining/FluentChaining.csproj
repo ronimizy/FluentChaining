@@ -17,15 +17,15 @@
         <Description>A lightweight library for implementing responsibility chains in fluent style.</Description>
         <PackageProjectUrl>https://github.com/ronimizy/FluentChaining</PackageProjectUrl>
         <RepositoryUrl>https://github.com/ronimizy/FluentChaining</RepositoryUrl>
-        <PackageVersion>1.0.3</PackageVersion>
-        <PackageReleaseNotes>Lowered DI version.</PackageReleaseNotes>
+        <PackageVersion>1.0.4</PackageVersion>
+        <PackageReleaseNotes>Updated FluentScanning package</PackageReleaseNotes>
         <RepositoryType>git</RepositoryType>
         <PackageTags>responsibility-chain;fluent;</PackageTags>
         <PackageReadmeFile>README.md</PackageReadmeFile>
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="FluentScanning.DependencyInjection" Version="1.1.2" />
+        <PackageReference Include="FluentScanning.DependencyInjection" Version="2.0.1" />
         <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="3.0.0" />
     </ItemGroup>
 

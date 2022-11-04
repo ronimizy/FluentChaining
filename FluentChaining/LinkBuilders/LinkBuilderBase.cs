@@ -35,7 +35,7 @@ internal abstract class LinkBuilderBase<TRequest, TContext, TResponse> : ILinkBu
         var linkType = typeof(ILink<TRequest, TResponse>);
 
         var query = scanner.ScanForTypesThat()
-            .MustBeAssignableTo(linkType)
+            .AreAssignableTo(linkType)
             .AreNotInterfaces()
             .AreNotAbstractClasses();
 
